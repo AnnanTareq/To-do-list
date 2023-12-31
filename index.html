@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <div id="todolist">
+            <div class="todolist_header">
+                <p>To Do List</p>
+            </div>
+            <div id="todolist_container">
+                
+                
+            </div>
+        </div>
+        <input type="text" name="submit" id="submit" placeholder="Write here, what you want to submit!" autofocus>
+        <button id="submit_button" onclick="myfunction()">Submit</button>
+        <button id="delete_button" onclick="delete_item()">Delete Item</button>
+    </div>
+
+    <h1 style="text-align: center; border: 1px solid black; margin-bottom: 20px; margin-top: 20px;">Deleted items: </h1>
+    <div class="show-deleted-item show-del-item" id="del-item">
+        <!-- <p id="del"></p> -->
+    </div>
+
+    <div id="new-del"></div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
