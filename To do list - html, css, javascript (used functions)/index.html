@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do-list</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>To-Do-List</h1>
+        </div>
+
+        <div class="input-div">
+            <input type="text" placeholder="Enter task">
+            <input type="button" value="Add task" id="btn">
+        </div>
+
+        <div class="show-task">
+            <div class="incomplete-task task">
+                <div class="header">
+                    <p>Incomplete Task</p>
+                </div>
+                <div class="list inc-list">
+                    <ul>
+                        <li>
+                            <input type="checkbox">
+                            <p>Task</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="complete-task task">
+                <div class="header">
+                    <p>Complete Task</p>
+                </div>
+                <div class="list comp-list">
+                    <ul>
+                        <li>
+                            <p>Deleted Task</p>
+                            <button type="button">Delete</button>
+                        </li>
+                        <li>
+                            <p>
+                                Deleted task 2
+                            </p>
+                            <button type="button">Delete</button>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
