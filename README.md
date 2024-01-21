@@ -1,4 +1,5 @@
-This is a basic todolist. 
+This is a basic todolist directory. Used to different approach for creating todolist.
+
 HTML, CSS & Javascript were used to create this web application. 
 
 All data which comes from the input, it will stored in the Javascript object in the first folder. 
